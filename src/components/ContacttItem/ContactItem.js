@@ -16,26 +16,10 @@ export default function ContactList({
   return (
 
 
-    <
-    li > {
-      ' '
-    } {
-      name
-    }: {
-      number
-    } {
-      ' '
-    } <
-    button onClick = {
-      onDeleteContact
-    } > {
-      ' '
-    }
-    Delete {
-      ' '
-    } <
-    /button>{' '} <
-    /li>
+    <li> 
+    {name}: {number} 
+    <button onClick={onDeleteContact}>Delete</button>
+    </li>
 
   );
 }
